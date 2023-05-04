@@ -1,0 +1,21 @@
+'4.12':
+  e2e:
+    amd64: 
+      - aws-ipi-disconnected-workers-rhcos-rhel8-p2-f7
+      - azure-ipi-proxy-workers-rhcos-rhel8-p2-f7
+      - vsphere-upi-disconnected-sdn-workers-rhcos-rhel8-p2-f14
+      - gcp-ipi-workers-rhel8-fips-p2-f7
+      - ibmcloud-ipi-p2-f7
+      - nutanix-ipi-p2-f7
+      - baremetalds-ipi-ovn-ipv4-p2-f14
+    arm64:
+      - aws-ipi-byo-kms-etcd-encryption-p2-f14
+      - azure-ipi-ovn-etcd-encryption-p2-f14
+  upgrade:
+    amd64:
+      - aws-ipi-proxy-cco-manual-sts-p2-f14
+      - azure-ipi-proxy-workers-rhcos-rhel8-p2-f7
+      - vsphere-ipi-proxy-workers-rhel8-p2-f14
+      - gcp-ipi-ovn-p2-f7
+    arm64:
+      - aws-ipi-private-p2-f14
