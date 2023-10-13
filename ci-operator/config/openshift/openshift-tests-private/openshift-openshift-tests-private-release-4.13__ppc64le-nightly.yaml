@@ -86,6 +86,7 @@ tests:
         @fips'
       TAG_VERSION: '@4.13'
     test:
+    - ref: enable-qe-catalogsource
     - chain: openshift-e2e-test-qe
     workflow: ipi-powervs
 zz_generated_metadata:
