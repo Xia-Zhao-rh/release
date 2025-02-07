@@ -22,7 +22,6 @@ function disable_default_catalogsource () {
     fi
 }
 
-
 #################### Main #######################################
 run_command "oc whoami"
 run_command "oc version -o yaml"
